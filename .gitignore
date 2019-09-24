@@ -1,4 +1,5 @@
 *.DS_Store
+venv
 data/cmn
 data/hak
 data/nan
