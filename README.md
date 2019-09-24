@@ -1,7 +1,7 @@
 ## Gengo
 
 ### Overview
-Gengo is a multilingual dictionary with a focus on languages that have 漢字 as their writing system.
+言語 is a word that means "language." Although they're pronounced differently in different languages (yányǔ in Mandarin, giân-gí in Min Nan, gengo in Japanese, etc.) they all share a common ancestor and more notably, a common writing system. Chinese characters are the oldest writing system in the world that is still in widespread active use and its' elegance is seen in all the languages that still use it. Gengo is a multilingual dictionary with a focus on languages that use Chinese characters as a writing system.
 
 ### Development Setup
 1. Fork this repository and clone your fork.
@@ -12,7 +12,7 @@ Gengo is a multilingual dictionary with a focus on languages that have 漢字 as
 
 ### Sources
 
-#### Chinese
+#### Mandarin, Min Nan, Hakka
 * [language.moe.gov.tw](https://language.moe.gov.tw)
 
 Language data for Mandarin, Min Nan and Hakka languages originally provided by the Ministry of Education of Taiwan. ([license](https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/index.html))
