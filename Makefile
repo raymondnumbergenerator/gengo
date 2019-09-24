@@ -1,6 +1,9 @@
 VENV := venv
 BIN := $(VENV)/bin
 
+export DEFAULT_DATA_PATH := $(CURDIR)/data
+export GENGO_SETTINGS = := $(CURDIR)/settings/settings.py
+
 $(VENV): requirements.txt
 	python3 ./vendor/venv-update venv= venv -p python3 install= -r requirements.txt
 
