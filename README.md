@@ -15,14 +15,14 @@
 #### Mandarin, Min Nan, Hakka
 * [language.moe.gov.tw](https://language.moe.gov.tw)
 
-Language data for Mandarin, Min Nan and Hakka languages originally provided by the Ministry of Education of Taiwan. ([license](https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/index.html))
+Language data for Mandarin, Min Nan and Hakka languages originally provided by the Ministry of Education of Taiwan. ([CC BY-ND 3.0 TW](https://language.moe.gov.tw/001/Upload/Files/site_content/M0001/respub/index.html))
 
-Data available from the [moedict](https://github.com/g0v/moedict-webkit) project, maintained by [g0v.tw](https://g0v.tw).
+Data available from the [moedict](https://github.com/g0v/moedict-webkit) project, maintained by [g0v.tw](https://g0v.tw). ([CC0 1.0](https://github.com/g0v/moedict-webkit#cc0-10-%E5%85%AC%E7%9C%BE%E9%A0%98%E5%9F%9F%E8%B2%A2%E7%8D%BB%E5%AE%A3%E5%91%8A))
 
 #### Japanese
 * [edrdg.org](http://www.edrdg.org)
 
-Language data for Japanese provided by the Electronic Dictionary Research and Development Group. ([license](https://www.edrdg.org/edrdg/licence.html))
+Language data for Japanese provided by the Electronic Dictionary Research and Development Group. ([CC BY-SA 3.0](https://www.edrdg.org/edrdg/licence.html))
 
 Vocabulary data available from the [JMDict](http://www.edrdg.org/jmdict/j_jmdict.html) project, maintained by [EDRDG.org](https://edrdg.org).
 
@@ -30,7 +30,7 @@ Kanji data available from the [KANJIDIC](http://www.edrdg.org/wiki/index.php/KAN
 
 * [tatoeba.org](https://tatoeba.org)
 
-Japanese corpus data originally provided by the Tanaka Corpus, originally maintained by the EDRDG. Now maintained by the Tatoeba project. ([CC BY 2.0](https://tatoeba.org/eng/downloads))
+Japanese corpus data originally provided by the Tanaka Corpus, originally maintained by the EDRDG. Now maintained by the Tatoeba project. ([CC BY 2.0 FR](https://tatoeba.org/eng/downloads))
 
 Data available from the [Tatoeba](https://tatoeba.org/eng/downloads) project, maintained by [tatoeba.org](https://tatoeba.org).
 
