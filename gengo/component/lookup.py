@@ -38,11 +38,12 @@ def synonyms(lang: str, query: str):
 def synonyms_chn(lang: str, query: str):
     langs = {'cmn', 'hak', 'nan'}
     langs.remove(lang)
-    syns = CHN_SYNONYMS[CHN[lang]]
+    synonyms = CHN_SYNONYMS[CHN[lang]]
 
-    result = {}
+    syns = {}
+    result = {'t': query, 's': syns}
     for l in langs:
-        result.update({l: syns[CHN[l]][query]})
+        syns.update({l: synonyms[CHN[l]][query]})
     return result
 
 def synonyms_jpn(query: str):
