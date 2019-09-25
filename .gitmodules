@@ -1,4 +1,4 @@
-[submodule "data/moedict"]
-	path = data/moedict
+[submodule "init/moedict"]
+	path = init/moedict
     url = https://github.com/g0v/moedict-webkit
     ignore = dirty
