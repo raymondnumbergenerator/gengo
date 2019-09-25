@@ -23,12 +23,14 @@ def lookup(lang: str, query: str):
             result[l] = lookup_chn(l, query)
     elif lang == 'jpn':
         result = lookup_jpn(query)
-
     return result
 
 def lookup_chn(lang: str, query: str):
-    json_file = open(app.config['DATA_PATH'] + '/{}/{}.json'.format(lang, query), encoding='utf-8')
-    return json.load(json_file)
+    try:
+        json_file = open(app.config['DATA_PATH'] + '/{}/{}.json'.format(lang, query))
+        return json.load(json_file)
+    except:
+        return {}
 
 def lookup_jpn(query: str):
     # TODO
@@ -37,7 +39,7 @@ def lookup_jpn(query: str):
 def synonyms(lang: str, query: str):
     if lang in CHN:
         return synonyms_chn(lang, query)
-        
+ 
 def synonyms_chn(lang: str, query: str):
     langs = {'hak', 'nan'}
     if lang in langs:
