@@ -39,14 +39,23 @@ def synonyms(lang: str, query: str):
         return synonyms_chn(lang, query)
         
 def synonyms_chn(lang: str, query: str):
-    langs = {'cmn', 'hak', 'nan'}
-    langs.remove(lang)
+    langs = {'hak', 'nan'}
+    if lang in langs:
+        langs = {'cmn'}
     synonyms = CHN_SYNONYMS[CHN[lang]]
 
     syns = {}
     result = {'t': query, 's': syns}
     for l in langs:
-        syns.update({l: synonyms[CHN[l]].get(query, '')})
+        s = synonyms[CHN[l]].get(query, None)
+        if s is None:
+            s = []
+        else:
+            s = s.split(',')
+            for i in range(len(s)):
+                if s[i] == '':
+                    s[i] = query
+        syns[l] = s
     return result
 
 def synonyms_jpn(query: str):
