@@ -7,6 +7,7 @@ SUPPORTED_LANGUAGES = {
     'hak', # Hakka Chinese
     'nan', # Min Nan Chinese (Taiwanese)
     # 'jpn', # Japanese
+    # 'kor', # Korean
     }
 
 SUPPORTED_QUERIES = {
@@ -15,6 +16,7 @@ SUPPORTED_QUERIES = {
     'nan', # Min Nan Chinese (Taiwanese)
     'chn', # Mandarin, Hakka, Min Nan
     # 'jpn', # Japanese
+    # 'kor', # Korean
     'all', # All languages
     }
 
