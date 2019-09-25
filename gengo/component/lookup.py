@@ -43,7 +43,7 @@ def synonyms_chn(lang: str, query: str):
     syns = {}
     result = {'t': query, 's': syns}
     for l in langs:
-        syns.update({l: synonyms[CHN[l]][query]})
+        syns.update({l: synonyms[CHN[l]].get(query, '')})
     return result
 
 def synonyms_jpn(query: str):
