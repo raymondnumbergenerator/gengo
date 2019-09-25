@@ -7,7 +7,7 @@ CHN = {'cmn', 'hak', 'nan', 'chn'}
 
 def beautify(lang: str, data) -> str:
     if lang in CHN:
-        return remove_delimiters(json.dumps(data, indent=4, ensure_ascii=False))
+        return remove_delimiters(json.dumps(data, indent=4, ensure_ascii=False, sort_keys=True))
     elif lang == 'jpn':
         # TODO
         return

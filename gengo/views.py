@@ -5,10 +5,9 @@ from flask import url_for
 
 from gengo.app import app
 from gengo.component.lookup import lookup
-from gengo.component.lookup import synonyms
 from gengo.utils import bad_query
 from gengo.utils import beautify
-from gengo.utils import supported_language, supported_query
+from gengo.utils import supported_query
 
 @app.route('/')
 def home():
@@ -19,13 +18,6 @@ def api(lang: str, query: str):
     if not supported_query(lang) or bad_query(query):
         return invalid_query()
     result = beautify(lang, lookup(lang, query))
-    return Response(str(result), mimetype='application/json')
-
-@app.route('/api/<lang>/<query>/syn')
-def api_syn(lang: str, query: str):
-    if not supported_language(lang) or bad_query(query):
-        return invalid_query()
-    result = beautify(lang, synonyms(lang, query))
     return Response(str(result), mimetype='application/json')
 
 def invalid_query():

@@ -28,7 +28,9 @@ def lookup(lang: str, query: str):
 def lookup_chn(lang: str, query: str):
     try:
         json_file = open(app.config['DATA_PATH'] + '/{}/{}.json'.format(lang, query))
-        return json.load(json_file)
+        result = json.load(json_file)
+        result['s'] = synonyms_chn(lang, query)
+        return result
     except:
         return {}
 
@@ -46,8 +48,7 @@ def synonyms_chn(lang: str, query: str):
         langs = {'cmn'}
     synonyms = CHN_SYNONYMS[CHN[lang]]
 
-    syns = {}
-    result = {'t': query, 's': syns}
+    result = {}
     for l in langs:
         s = synonyms[CHN[l]].get(query, None)
         if s is None:
@@ -57,10 +58,6 @@ def synonyms_chn(lang: str, query: str):
             for i in range(len(s)):
                 if s[i] == '':
                     s[i] = query
-        syns[l] = s
+        result[l] = s
     return result
-
-def synonyms_jpn(query: str):
-    # TODO
-    return
 
