@@ -1,7 +1,7 @@
 import json
 import re
 
-CHN = {'cmn', 'hak', 'nan'}
+CHN = {'cmn', 'hak', 'nan', 'chn'}
 
 def beautify(lang: str, data) -> str:
     if lang in CHN:
@@ -13,3 +13,4 @@ def beautify(lang: str, data) -> str:
 
 def remove_delimiters(s: str):
     return re.sub('`|~', '', s)
+

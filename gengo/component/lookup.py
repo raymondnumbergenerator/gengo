@@ -15,9 +15,12 @@ CHN_SYNONYMS = {
     't': NAN_SYNONYMS}
 
 def lookup(lang: str, query: str):
-    result = None
+    result = {}
     if lang in CHN:
         result = lookup_chn(lang, query)
+    elif lang == 'chn':
+        for l in CHN:
+            result[l] = lookup_chn(l, query)
     elif lang == 'jpn':
         result = lookup_jpn(query)
 
