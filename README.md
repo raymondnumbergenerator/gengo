@@ -1,7 +1,7 @@
 ## Gengo
 
 ### Overview
-言語 is a word that means "language." Although they're pronounced differently in different languages (yányǔ in Mandarin, giân-gí in Min Nan, gengo in Japanese, etc.) they all share a common ancestor and more notably, a common writing system. Chinese characters are the oldest writing system in the world that is still in widespread active use and its' elegance is seen in all the languages that still use it. Gengo is a multilingual dictionary with a focus on languages that use Chinese characters as a writing system.
+言語 means "language." Although they're pronounced differently in different languages (yányǔ in Mandarin, giân-gí in Min Nan, gengo in Japanese, etc.), they all share a common ancestor and more notably, a common writing system. Chinese characters are the oldest writing system in the world that is still in widespread active use and its' elegance is seen in all the languages that use it. Gengo is a multilingual dictionary with a focus on languages that use Chinese characters as a writing system.
 
 ### Development Setup
 1. Fork this repository and clone your fork.
@@ -19,6 +19,10 @@ Language data for Mandarin, Min Nan and Hakka languages originally provided by t
 
 Data available from the [moedict](https://github.com/g0v/moedict-webkit) project, maintained by [g0v.tw](https://g0v.tw). ([CC0 1.0](https://github.com/g0v/moedict-webkit#cc0-10-%E5%85%AC%E7%9C%BE%E9%A0%98%E5%9F%9F%E8%B2%A2%E7%8D%BB%E5%AE%A3%E5%91%8A))
 
+* [cc-cedict.org](https://cc-cedict.org/wiki)
+
+Chinese-English dictionary provided by the CC-CEDICT project, maintained by [cc-cedict.org](https://cc-cedict.org/wiki/). ([CC BY-SA 4.0](https://www.mdbg.net/chinese/dictionary?page=cc-cedict))
+
 #### Japanese
 * [edrdg.org](http://www.edrdg.org)
 
@@ -30,7 +34,7 @@ Kanji data available from the [KANJIDIC](http://www.edrdg.org/wiki/index.php/KAN
 
 * [tatoeba.org](https://tatoeba.org)
 
-Japanese corpus data originally provided by the Tanaka Corpus, originally maintained by the EDRDG. Now maintained by the Tatoeba project. ([CC BY 2.0 FR](https://tatoeba.org/eng/downloads))
+Japanese corpus data originally provided by the Tanaka Corpus, originally maintained by the EDRDG and currently maintained by the Tatoeba project. ([CC BY 2.0 FR](https://tatoeba.org/eng/downloads))
 
 Data available from the [Tatoeba](https://tatoeba.org/eng/downloads) project, maintained by [tatoeba.org](https://tatoeba.org).
 
