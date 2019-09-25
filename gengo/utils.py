@@ -1,9 +1,11 @@
 import json
 import pprint
 
-def beautify(lang, data):
-    if lang in {'cmn', 'hak', 'nan'}:
-        return json.dumps(data, indent=4, sort_keys=True, ensure_ascii=False)
+CHN = {'cmn', 'hak', 'nan'}
+
+def beautify(lang: str, data) -> str:
+    if lang in CHN:
+        return json.dumps(data, indent=4, ensure_ascii=False)
     elif lang == 'jpn':
         # TODO
         return

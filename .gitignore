@@ -1,4 +1,6 @@
 *.DS_Store
+*.swp
+__pycache__/
 venv
 data/cmn
 data/hak

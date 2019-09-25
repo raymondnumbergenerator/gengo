@@ -2,7 +2,7 @@ VENV := venv
 BIN := $(VENV)/bin
 
 export DEFAULT_DATA_PATH := $(CURDIR)/data
-export GENGO_SETTINGS = := $(CURDIR)/settings/settings.py
+export GENGO_SETTINGS := $(CURDIR)/settings/settings.py
 
 $(VENV): requirements.txt
 	python3 ./vendor/venv-update venv= venv -p python3 install= -r requirements.txt
@@ -17,3 +17,7 @@ init:
 	mv data/moedict/a data/cmn
 	mv data/moedict/t data/nan
 	mv data/moedict/h data/hak
+
+.PHONY: dev
+dev:
+	$(BIN)/python3 run.py
