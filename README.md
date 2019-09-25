@@ -1,7 +1,7 @@
 ## Gengo
 
 ### Overview
-言語 means "language." Although they're pronounced differently in different languages (yányǔ in Mandarin, giân-gí in Min Nan, gengo in Japanese, etc.), they all share a common ancestor and more notably, a common writing system. Chinese characters are the oldest writing system in the world that is still in widespread active use and its' elegance is seen in all the languages that use it. Gengo is a multilingual dictionary with a focus on languages that use Chinese characters as a writing system.
+言語 means "language." It's pronounced differently in different languages (yányǔ in Mandarin, giân-gí in Min Nan, gengo in Japanese, etc.), but they all share a common root and more notably, a common writing system. Chinese characters are the oldest writing system in the world that is still in widespread active use and its' elegance is seen in all the languages that use it. Gengo is a multilingual dictionary with a focus on languages that use Chinese characters as a writing system.
 
 ### Development Setup
 1. Fork this repository and clone your fork.
@@ -21,7 +21,7 @@ Data available from the [moedict](https://github.com/g0v/moedict-webkit) project
 
 * [cc-cedict.org](https://cc-cedict.org/wiki)
 
-Chinese-English dictionary provided by the CC-CEDICT project, maintained by [cc-cedict.org](https://cc-cedict.org/wiki/). ([CC BY-SA 4.0](https://www.mdbg.net/chinese/dictionary?page=cc-cedict))
+Chinese-English bilingual dictionary data provided by the CC-CEDICT project, maintained by [cc-cedict.org](https://cc-cedict.org/wiki/). ([CC BY-SA 4.0](https://www.mdbg.net/chinese/dictionary?page=cc-cedict))
 
 #### Japanese
 * [edrdg.org](http://www.edrdg.org)
